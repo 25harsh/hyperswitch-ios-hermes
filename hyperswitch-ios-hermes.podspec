@@ -1,4 +1,4 @@
-version = "0.75.2"
+version = "0.75.4"
 
 Pod::Spec.new do |s|
     s.name                      = 'hyperswitch-ios-hermes'
