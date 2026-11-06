@@ -1,14 +1,15 @@
 version = "0.79.1"
+pod_version = "#{version}.1"
 
 Pod::Spec.new do |s|
     s.name                      = 'hyperswitch-ios-hermes'
-    s.version                   =  version
+    s.version                   =  pod_version
     s.summary                   = 'hermes-engine'
     s.description               = 'hermes-engine for hyperswitch ios sdk'
     s.homepage                  = 'https://hyperswitch.io/'
     s.author                    = 'Harshit S'
     s.license                   = { :type => 'MIT', :file => 'LICENSE' }
-    s.platforms                 = { ios: "13.4" }
+    s.platforms                 = { ios: "15.1" }
     s.source                    = {
       http: "https://repo1.maven.org/maven2/com/facebook/react/react-native-artifacts/#{version}/react-native-artifacts-#{version}-hermes-ios-release.tar.gz"
     }
